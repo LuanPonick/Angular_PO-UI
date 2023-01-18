@@ -1,0 +1,8 @@
+/* You can add global styles to this file, and also import other style files */
+:root{
+    --color-button-color: white;
+    --color-button-color-hover: white;
+    --color-button-background-color: rgb(0, 85, 255);
+    --color-button-background-color-hover: rgb(0, 72, 215);
+    --color-button-border : none;
+}
