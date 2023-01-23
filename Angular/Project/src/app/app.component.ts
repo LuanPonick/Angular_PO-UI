@@ -10,6 +10,6 @@ export class AppComponent {
   userName = "Luan";
   userData = {
     email:'luanponick.sz@gmail.com',
-    role: 'Admin',
+    role: 'Adimn'
   }
 }

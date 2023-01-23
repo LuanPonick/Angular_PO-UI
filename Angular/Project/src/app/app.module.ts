@@ -10,7 +10,7 @@ import { ParentDataComponent } from './components/parent-data/parent-data.compon
   declarations: [
     AppComponent,
     FirstComponentComponent,
-    ParentDataComponent
+    ParentDataComponent,
   ],
   imports: [
     BrowserModule,
