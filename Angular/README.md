@@ -10,7 +10,7 @@
 >---
 
 ># _Angular - 4_
->Criação de componentes<br> ? 
+>Criação de componentes ?<br> 
 >Criação de componentes + caminho ? 
 >
 >---
@@ -21,6 +21,7 @@
 >>Criação de vairaveis no componente ??<br>
 >>Como mostrar ??<br>
 >>><s>Variavel</s> ???<br>
+>>>
 >>>---
 >>---
 >---
