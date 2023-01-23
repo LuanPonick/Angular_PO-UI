@@ -7,11 +7,13 @@
 ># _Angular - 3_
 >Estrutura angular ?<br>Componente ? 
 >
-><sub>Contem um arquivo MD.<sub>
+>---
 
 ># _Angular - 4_
 >Criação de componentes<br> ? 
 >Criação de componentes + caminho ? 
+>
+>---
 
 ># _Angular - 5_
 >Interpolção de dados ?<br>
@@ -19,6 +21,17 @@
 >>Criação de vairaveis no componente ??<br>
 >>Como mostrar ??<br>
 >>><s>Variavel</s> ???<br>
+>>>---
+>>---
+>---
 
-># _Angular - 6
-> 
+># _Angular - 6_
+>Compartilhamento de dados entre componente ?<br>
+>>Criando o atributo "global" ??<br>
+>>Enfiando atributos ao componente<br>
+>>Enfiando objetos ao componente<br>
+>>>nota : !<br>
+>>>
+>>>---
+>>---
+>---
