@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,Input } from '@angular/core';
 
 @Component({
   selector: 'app-diretivas',
@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./diretivas.component.css']
 })
 export class DiretivasComponent {
-
+  @Input() color!:string;
+  @Input() size!:number;
+  @Input() classesteste!:string[];
 }

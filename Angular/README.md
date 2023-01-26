@@ -36,3 +36,21 @@
 >>>---
 >>---
 >---
+
+> # _Angular 7_
+>Compartilhamento de dados entre componentes ?<br>
+>
+>>Criando o atributo "global" ??<br>
+>>Enfiando atributos ao componente ??<br>
+>>Enfiando objetos ao componente ??<br>
+>>
+>>---
+>---
+
+># _Angular 8_
+> diretivas
+>
+>---
+
+># _Angular 9_
+>

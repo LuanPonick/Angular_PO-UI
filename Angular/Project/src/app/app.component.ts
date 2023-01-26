@@ -12,4 +12,7 @@ export class AppComponent {
     email:'luanponick.sz@gmail.com',
     role: 'Adimn'
   }
+  classes = ["verde","italico"]
+  color = 'red';
+  size = 50;
 }
