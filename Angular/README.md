@@ -1,8 +1,12 @@
 ># _Angular - 1_ 
 >O que é Angular?<br>Porque Angular?
+>
+>---
 
 ># _Angular - 2_
 >Instalação Angular ?;<br>Inicializando projetosangular ?;<br>Inicializando projeto ?;<br> Acessando o projeto ?.
+>
+>---
 
 ># _Angular - 3_
 >Estrutura angular ?<br>Componente ? 
@@ -22,8 +26,6 @@
 >>Como mostrar ??<br>
 >>><s>Variavel</s> ???<br>
 >>>
->>>---
->>---
 >---
 
 ># _Angular - 6_
@@ -33,8 +35,6 @@
 >>Enfiando objetos ao componente<br>
 >>>nota : !<br>
 >>>
->>>---
->>---
 >---
 
 > # _Angular 7_
@@ -44,7 +44,6 @@
 >>Enfiando atributos ao componente ??<br>
 >>Enfiando objetos ao componente ??<br>
 >>
->>---
 >---
 
 ># _Angular 8_
@@ -57,3 +56,4 @@
 >O que é ?<br>
 >ngif ?<br>
 >else ? <br>
+>---
