@@ -53,7 +53,7 @@
 >---
 
 ># _Angular 9_
->Renderização condicional ?
->O que é ?
->ngif ?
->else ? 
+>Renderização condicional ?<br>
+>O que é ?<br>
+>ngif ?<br>
+>else ? <br>
