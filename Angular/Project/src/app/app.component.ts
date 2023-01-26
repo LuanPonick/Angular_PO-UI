@@ -15,4 +15,6 @@ export class AppComponent {
   classes = ["verde","italico"]
   color = 'red';
   size = 50;
+
+
 }
