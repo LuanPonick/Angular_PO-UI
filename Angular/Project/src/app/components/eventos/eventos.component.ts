@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class EventosComponent {
   cabecalho : string = "testes de eventos"
+  show : boolean = false;
+
+  showMensage() : void{
+    this.show = !this.show; // togle
+  }
 }
+
