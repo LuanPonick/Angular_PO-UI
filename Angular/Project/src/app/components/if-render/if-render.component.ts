@@ -6,6 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./if-render.component.css','./../../app.component.css']
 })
 export class IfRenderComponent {
+  cabecalho : string = "if render"
+
   name = 'luana'
   canShow:boolean = true;
 }

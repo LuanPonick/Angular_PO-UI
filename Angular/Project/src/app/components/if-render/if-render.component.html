@@ -1,6 +1,9 @@
-<h1 *ngIf="canShow">Esta mostrando isso porque foi permitido</h1>
+<app-cabecalho [cabecalho]="cabecalho"></app-cabecalho>
+<div class="componente">
+  <h1 *ngIf="canShow">Esta mostrando isso porque foi permitido</h1>
 
-<h2 *ngIf="name === 'luan'; else nomeNaoLuan">nome é luan</h2>
-<ng-template #nomeNaoLuan>
-  nome nao é luan
-</ng-template>
+  <h2 *ngIf="name === 'luan'; else nomeNaoLuan">nome é luan</h2>
+  <ng-template #nomeNaoLuan>
+    nome nao é luan
+  </ng-template>  
+</div>
