@@ -7,6 +7,8 @@ import { Component,Input } from '@angular/core';
               './../../app.component.css']
 })
 export class DiretivasComponent {
+  cabecalho : string = "Teste de direticas"
+
   @Input() color!:string;
   @Input() size!:number;
   @Input() classesteste!:string[];

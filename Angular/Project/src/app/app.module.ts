@@ -8,6 +8,7 @@ import { ParentDataComponent } from './components/parent-data/parent-data.compon
 import { DiretivasComponent } from "./components/diretivas/diretivas.component";
 import { IfRenderComponent } from './components/if-render/if-render.component';
 import { EventosComponent } from './components/eventos/eventos.component';
+import { CabecalhoComponent } from './components/cabecalho/cabecalho.component';
 
 @NgModule({
     declarations: [
@@ -17,6 +18,7 @@ import { EventosComponent } from './components/eventos/eventos.component';
         DiretivasComponent,
         IfRenderComponent,
         EventosComponent,
+        CabecalhoComponent,
     ],
     providers: [],
     bootstrap: [AppComponent],

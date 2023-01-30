@@ -6,6 +6,8 @@ import { Component,Input } from '@angular/core';
   styleUrls: ['./parent-data.component.css','./../../app.component.css']
 })
 export class ParentDataComponent {
+  cabecalho : string = "parent";
+
   @Input() name:string = '';
   @Input() userData! : {email :String , role:String};
 }

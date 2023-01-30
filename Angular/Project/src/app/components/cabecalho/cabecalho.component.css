@@ -1,0 +1,15 @@
+*{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+header{
+    margin-inline: auto;
+    border: 1px solid rgba(51, 2, 2, 0.671);
+    border-bottom: 0;
+    border-start-start-radius : 20px;
+    border-start-end-radius : 20px;
+    background-color: rgb(84, 53, 199);
+    width: 800px;
+}
