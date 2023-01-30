@@ -58,3 +58,8 @@
 >else ? <br>
 >
 >---
+
+># _Angular 10_
+>Eventos Sintaxe ?
+>
+>---
