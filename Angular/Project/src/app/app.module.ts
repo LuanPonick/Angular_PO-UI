@@ -9,6 +9,8 @@ import { DiretivasComponent } from "./components/diretivas/diretivas.component";
 import { IfRenderComponent } from './components/if-render/if-render.component';
 import { EventosComponent } from './components/eventos/eventos.component';
 import { CabecalhoComponent } from './components/cabecalho/cabecalho.component';
+import { EmitterComponent } from './components/emitter/emitter.component';
+import { ChangeNumberComponent } from './components/change-number/change-number.component';
 
 @NgModule({
     declarations: [
@@ -19,6 +21,8 @@ import { CabecalhoComponent } from './components/cabecalho/cabecalho.component';
         IfRenderComponent,
         EventosComponent,
         CabecalhoComponent,
+        EmitterComponent,
+        ChangeNumberComponent,
     ],
     providers: [],
     bootstrap: [AppComponent],

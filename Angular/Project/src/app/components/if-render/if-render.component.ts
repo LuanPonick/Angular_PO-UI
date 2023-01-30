@@ -8,6 +8,6 @@ import { Component } from '@angular/core';
 export class IfRenderComponent {
   cabecalho : string = "if render"
 
-  name = 'luana'
+  name = 'luna'
   canShow:boolean = true;
 }

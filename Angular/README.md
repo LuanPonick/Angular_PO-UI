@@ -64,3 +64,11 @@
 >
 >---
 
+># _Angular 11_
+>Emitir eventos ? <br>
+>Palavras chaves ??<br>
+>Fazendo ?<br>
+>
+>---
+
+
