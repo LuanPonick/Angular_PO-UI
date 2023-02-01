@@ -1,11 +1,11 @@
-## Renderização de lista 
+## Renderização de lista ?
 Para se renderizar listas ou vetores completos se usa o _*ngFor_ que ele basicamente cria um componente ou uma tag ate que passe por toda o vetor
-### sintaxe : 
+### sintaxe : ??
 ~~~Angular
     <tag *ngFor="let varName, of varNames">(...)</tag>
 ~~~
 Sendo q a variavel varName pode ser usada dentro da tag para mostrar o valor q esta no momento 
-### EX :
+### EX : ??
 ~~~Angular
 <ul id="lista">
     <li *ngFor="let animal, of animals">{{animal.name}} {{animal.tipe}}</li>
