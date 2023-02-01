@@ -71,4 +71,10 @@
 >
 >---
 
+># _Angular 12_
+>Renderização de lista ? <br>
+>sintaxe : ??<br>
+>EX : ??<br>
+>
+>---
 
