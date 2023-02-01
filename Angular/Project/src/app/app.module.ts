@@ -11,6 +11,7 @@ import { EventosComponent } from './components/eventos/eventos.component';
 import { CabecalhoComponent } from './components/cabecalho/cabecalho.component';
 import { EmitterComponent } from './components/emitter/emitter.component';
 import { ChangeNumberComponent } from './components/change-number/change-number.component';
+import { ListRenderComponent } from './components/list-render/list-render.component';
 
 @NgModule({
     declarations: [
@@ -23,6 +24,7 @@ import { ChangeNumberComponent } from './components/change-number/change-number.
         CabecalhoComponent,
         EmitterComponent,
         ChangeNumberComponent,
+        ListRenderComponent,
     ],
     providers: [],
     bootstrap: [AppComponent],
