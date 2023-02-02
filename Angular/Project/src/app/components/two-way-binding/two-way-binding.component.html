@@ -1,0 +1,10 @@
+<app-cabecalho [cabecalho]="cabecalho"></app-cabecalho>
+<div class="componente">
+  <h2>legal</h2>
+  <form>
+    <input type="text" [(ngModel)]="name" name="name" placeholder="Digite seu nome">
+    <input type="submit" value="Eviar">
+  </form>
+  <p *ngIf="name.toUpperCase() == 'LUAN'">seu nome é {{name}}</p>
+
+</div>
