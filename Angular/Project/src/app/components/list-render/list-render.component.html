@@ -1,6 +1,12 @@
 <app-cabecalho [cabecalho]="cabecalho"></app-cabecalho>
 <div class="componente">
   <ul id="lista">
-    <li *ngFor="let animal, of animals">{{animal.name}} {{animal.tipe}}</li>
+    <li *ngFor="let animal, of animals">
+      {{animal.name}} {{animal.type}}
+      <button [ngStyle]="{'margin-top' : '50px'}" (click)="showAge(animal)"> Mostrar idade</button>
+    </li>
+
   </ul>
+
+  <h3>{{petMensage}}</h3>
 </div>
