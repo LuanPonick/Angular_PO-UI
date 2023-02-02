@@ -47,7 +47,7 @@
 >---
 
 ># _Angular 8_
-> diretivas
+> diretivas ?
 >
 >---
 
