@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Animal } from 'src/app/Animal';
 
 @Component({
   selector: 'app-list-render',
@@ -8,11 +9,23 @@ import { Component } from '@angular/core';
 export class ListRenderComponent {
   cabecalho: string = "renderização de lista";
 
-  animals =[
-    {name: "TUCA", tipe: "dog5"},
-    {name: "TUCA2", tipe: "dog4"},
-    {name: "TUCA3", tipe: "dog3"},
-    {name: "TUCA4", tipe: "dog2"},
-    {name: "TUCA5", tipe: "dog1"}
+  animals:Animal[] = [
+    {name: "TUCA", type: "dog5",age: 4},
+    {name: "TUCA2", type: "dog4",age: 4},
+    {name: "TUCA3", type: "dog3",age: 4},
+    {name: "TUCA4", type: "dog2",age: 4},
+    {name: "TUCA5", type: "dog1",age: 4}
     ]
+
+    animal : Animal = {
+      name: "TUCA",
+      type: "dog5",
+      age: 4
+    }
+
+    petMensage : string = '';
+
+    showAge(animal : Animal) : void {
+      this.petMensage = `O pet ${animal.name} tem ${animal.age} anos`;
+    }
 }
