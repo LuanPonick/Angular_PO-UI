@@ -89,4 +89,24 @@
 >
 >---
 
+> # _Angular 14_
+> Pipe operatos ? <br>
+> Utilidade ??<br>
+> sintaxe ??<br>
+> Ex ! 
 >
+>---
+
+># _Angular 15_
+> two way data bingdind ? <br>
+> Utilidade ?? <br>
+> Começando ?? <br>
+> Time To Show ??? <br>
+> Usando na prática ?? <br>
+> EX : !
+>
+>---
+
+<!-- 
+    nan not a number pesquisar
+-->
