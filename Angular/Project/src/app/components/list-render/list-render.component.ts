@@ -34,4 +34,7 @@ export class ListRenderComponent {
       console.log("Removendo animal");
       this.animals = this.listservice.remove(this.animals,animal);
     }
+    createNewAnimal(animals : Animal[]){
+
+    }
 }
