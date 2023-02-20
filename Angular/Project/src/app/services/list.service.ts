@@ -21,3 +21,4 @@ export class ListService {
     return this.http.get<Animal[]>(this.apiUrl);
   }
 }
+

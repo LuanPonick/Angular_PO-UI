@@ -15,7 +15,6 @@ export class ListRenderComponent {
   getAnimals(): void{
     this.listservice.getAll().subscribe((animals)=>this.animals = animals);
   }
-
   cabecalho: string = "renderização de lista";  
   petMensage : string = '';
   showAge(animal : Animal) : void {
@@ -29,3 +28,4 @@ export class ListRenderComponent {
     this.listservice.create(animals);
   }
 }
+
