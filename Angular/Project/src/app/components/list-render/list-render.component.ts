@@ -8,33 +8,24 @@ import { ListService } from 'src/app/services/list.service';
   styleUrls: ['./list-render.component.css' , './../../app.component.css']
 })
 export class ListRenderComponent {
-  constructor(private listservice : ListService){}
-  cabecalho: string = "renderização de lista";
+  animals:Animal[] = [];
+  constructor(private listservice : ListService){
+    this.getAnimals();
+  } 
+  getAnimals(): void{
+    this.listservice.getAll().subscribe((animals)=>this.animals = animals);
+  }
 
-  animals:Animal[] = [
-    {name: "TUCA1", type: "dog5",age: 4},
-    {name: "TUCA2", type: "dog4",age: 4},
-    {name: "TUCA3", type: "dog3",age: 4},
-    {name: "TUCA4", type: "dog2",age: 4},
-    {name: "TUCA5", type: "dog1",age: 4}
-    ]
-
-    animal : Animal = {
-      name: "TUCA",
-      type: "dog5",
-      age: 4
-    }
-
-    petMensage : string = '';
-
-    showAge(animal : Animal) : void {
-      this.petMensage = `O pet ${animal.name} tem ${animal.age} anos`;
-    }
-    removerAnimal(animal : Animal){
-      console.log("Removendo animal");
-      this.animals = this.listservice.remove(this.animals,animal);
-    }
-    createNewAnimal(animals : Animal[]){
-      this.listservice.create(animals)    
-    }
+  cabecalho: string = "renderização de lista";  
+  petMensage : string = '';
+  showAge(animal : Animal) : void {
+    this.petMensage = `O pet ${animal.name} tem ${animal.age} anos`;
+  }
+  removerAnimal(animal : Animal){
+    console.log("Removendo animal");
+    this.animals = this.listservice.remove(this.animals,animal);
+  }
+  createNewAnimal(animals : Animal[]){
+    this.listservice.create(animals);
+  }
 }
