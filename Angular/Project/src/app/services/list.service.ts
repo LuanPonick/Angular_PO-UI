@@ -14,4 +14,3 @@ export class ListService {
   create(animals : Animal[]){
     return animals.push({name: `null ${animals.length+1}`,type: "null", age:0})
   }
-}

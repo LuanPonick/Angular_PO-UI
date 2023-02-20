@@ -37,4 +37,3 @@ export class ListRenderComponent {
     createNewAnimal(animals : Animal[]){
       this.listservice.create(animals)    
     }
-}
