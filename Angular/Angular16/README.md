@@ -15,3 +15,9 @@
 >>Para se fazer sua utlização se deve ser colocado no construtor da classe o service 
 >>
 >---
+=======
+geralmente fica as requisições para as APIs <br>
+Para se criar um service basta apenas usar o comando <br>
+~~~
+ng generete service list
+~~~
