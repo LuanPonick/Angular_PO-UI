@@ -12,7 +12,7 @@ export class ListRenderComponent {
   cabecalho: string = "renderização de lista";
 
   animals:Animal[] = [
-    {name: "TUCA", type: "dog5",age: 4},
+    {name: "TUCA1", type: "dog5",age: 4},
     {name: "TUCA2", type: "dog4",age: 4},
     {name: "TUCA3", type: "dog3",age: 4},
     {name: "TUCA4", type: "dog2",age: 4},
@@ -35,6 +35,6 @@ export class ListRenderComponent {
       this.animals = this.listservice.remove(this.animals,animal);
     }
     createNewAnimal(animals : Animal[]){
-
+      this.listservice.create(animals)    
     }
 }
