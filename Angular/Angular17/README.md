@@ -1,4 +1,4 @@
-## Routers??
+## Routers?
 Os routers tem uma finalidade de fazer funcionar a navegação do site em si, ou se preferir para fazer as transiçoes entra componentes.
 >## Como usar ??
 >>1 -

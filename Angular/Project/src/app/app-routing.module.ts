@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+
 import { DiretivasComponent } from './components/diretivas/diretivas.component';
 import { EmitterComponent } from './components/emitter/emitter.component';
 import { EventosComponent } from './components/eventos/eventos.component';
