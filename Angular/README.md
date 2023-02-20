@@ -114,7 +114,15 @@
 >Utilização ??<br>
 >
 >---
-> Services ? 
+
+># _Angular 17_
+> Routers ?<br>
+> Como usar ??<br>
+> Como que funciona esse arquivo e como 
+>colocar os caminhos ???<br>
+>
+>---
+
 <!-- 
     nan not a number pesquisar
 -->

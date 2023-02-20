@@ -15,6 +15,9 @@ import { ChangeNumberComponent } from './components/change-number/change-number.
 import { ListRenderComponent } from './components/list-render/list-render.component';
 import { PipesComponent } from './components/pipes/pipes.component';
 import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
+import { InitComponent } from './components/init/init.component';
+import { PaginaCompletaComponent } from './components/pagina-completa/pagina-completa.component';
+import { PaginaFragmentadaComponent } from './components/pagina-fragmentada/pagina-fragmentada.component';
 
 
 
@@ -32,6 +35,9 @@ import { TwoWayBindingComponent } from './components/two-way-binding/two-way-bin
         ListRenderComponent,
         PipesComponent,
         TwoWayBindingComponent,
+        InitComponent,
+        PaginaCompletaComponent,
+        PaginaFragmentadaComponent,
     ],
     providers: [],
     bootstrap: [AppComponent],

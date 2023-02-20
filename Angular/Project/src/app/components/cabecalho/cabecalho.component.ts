@@ -8,4 +8,6 @@ import { Component, Input } from '@angular/core';
 export class CabecalhoComponent {
   @Input() cabecalho!:string;
   @Input() maxWitdh:string = "500";
+  @Input() marginMop:string = "0";
+  @Input() maxWitdhMedida:string = "px";
 }
