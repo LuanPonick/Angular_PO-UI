@@ -103,6 +103,3 @@
 >>
 >>~~~
 >>na parte Observable nos temos o nosso "try catch" e logo ao lado nos temos um interface que sera usada para retornar os dados e logo abaixo nos temos um return que diz basicamente que ira retonar a pesquisa ao banco de dadose por fim na parte que diz this.apiUrl é apenas o lugar que esta essa API.
-
-
-

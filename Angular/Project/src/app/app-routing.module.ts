@@ -7,6 +7,7 @@ import { EventosComponent } from './components/eventos/eventos.component';
 import { FirstComponentComponent } from './components/first-component/first-component.component';
 import { IfRenderComponent } from './components/if-render/if-render.component';
 import { InitComponent } from './components/init/init.component';
+import { ItemDetailsComponent } from './components/item-details/item-details.component';
 import { ListRenderComponent } from './components/list-render/list-render.component';
 import { PaginaCompletaComponent } from './components/pagina-completa/pagina-completa.component';
 import { PaginaFragmentadaComponent } from './components/pagina-fragmentada/pagina-fragmentada.component';
@@ -25,8 +26,10 @@ const routes: Routes = [
     {path:'paginaFragmentada/Eventos',component :EventosComponent},
     {path:'paginaFragmentada/Emitter',component :EmitterComponent},
     {path:'paginaFragmentada/ListReder',component :ListRenderComponent},
+      {path:'paginaFragmentada/ListReder/:id',component: ItemDetailsComponent},
     {path:'paginaFragmentada/Pipes',component :PipesComponent},
     {path:'paginaFragmentada/TwoWayBinding',component :TwoWayBindingComponent}
+    
 ] ;
 
 

@@ -19,6 +19,7 @@ import { TwoWayBindingComponent } from './components/two-way-binding/two-way-bin
 import { InitComponent } from './components/init/init.component';
 import { PaginaCompletaComponent } from './components/pagina-completa/pagina-completa.component';
 import { PaginaFragmentadaComponent } from './components/pagina-fragmentada/pagina-fragmentada.component';
+import { ItemDetailsComponent } from './components/item-details/item-details.component';
 
 
 
@@ -39,6 +40,7 @@ import { PaginaFragmentadaComponent } from './components/pagina-fragmentada/pagi
         InitComponent,
         PaginaCompletaComponent,
         PaginaFragmentadaComponent,
+        ItemDetailsComponent,
     ],
     providers: [],
     bootstrap: [AppComponent],
