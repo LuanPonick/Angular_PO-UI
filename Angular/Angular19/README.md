@@ -1,6 +1,6 @@
 ## Rota dinamica ? 
 A rota dinamica é basicamente um router que se altera com frequencia e ou tem muitos resultados possiveis, por exemplo caso nos temanhamos uma tabela com pessoas e nos queremos ver apenas 1 pessoa em expecifico e nao todas nos podemos usar a rota dinamica para ajudar nesse ponto.
-## Configuração da rota
+## Configuração da rota ?
 primeiro nos temos que falar ao angular que nos teremos uma rota dinamica e para isso é super simples basta apenas entrar no **app-routing.module** e configurar a rota dessa forma<br><sub> (lembrando que temos que ter um componente em expecifico que ira fazer essa determinada pesquisa e ira organizar para ficar legivel para nos).</sub>
 ### EX:
 ~~~Angular
@@ -27,14 +27,14 @@ getId(){
     const id = Number(this.route.snapshot.paramMap.get("id"));
 }
 ~~~
-># Converção
+># Converção ?
 >O valor quando é pego da url é sempre um texto então pode ser feita uma converção para o tipo em que deseja, no exemplo acima foi feita essa converção para um tipo numeric, por exemplo.
 ># :id ?
 >É um ponto importante ressaltar que o **:id** que foi colocado no app-routing-module tem aver com o nome que sera colocado dentro do _route.snapshot.paramMap.get("id")_
 >
 >---
 
-## fazendo requisição usando id
+## fazendo requisição usando id ?
 Para ser feito isso nos temos que no server (criado para o componente) usar essa logica
 ~~~Angular
 getItem(id : number) : Observable<nomeInterface> {

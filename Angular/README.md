@@ -123,6 +123,36 @@
 >
 >---
 
+># _Angular 18_
+> Requisições HTTPS/HTTP ?<br>
+> HTPPCLIENT ??<br>
+> HTPPHEADERS ??<br>
+> json-serve ??<br>
+> HTPPCLIENTMODULE ??<br>
+> API local<br>
+> Configurando module.ts<br>
+> Fazendo requisição ??<br>
+> Pontos a serem resaltados !<br>
+> Observer ??? <br>
+> Quem faz a adição ao atributo ???<br>
+>
+>---
+
+># _Angular 19_
+> Rota dinamica ? <br>
+> Configuração da rota ? <br>
+>Como coletar o id da URL ?<br>
+>Em pratica ! <br>
+>Converção ?<br>
+>:id ?<br>
+>fazendo requisição usando id<br>
+>
+>---
+ 
+
+
+
+
 <!-- 
     nan not a number pesquisar
 -->
