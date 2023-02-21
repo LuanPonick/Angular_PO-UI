@@ -1,3 +1,4 @@
+import { HttpErrorResponse } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { Animal } from 'src/app/Animal';
 import { ListService } from 'src/app/services/list.service';
@@ -13,7 +14,7 @@ export class ListRenderComponent {
     this.getAnimals();
   } 
   getAnimals(): void{
-    this.listservice.getAll().subscribe((animals)=>this.animals = animals);
+    this.listservice.getAll().subscribe((animals)=>this.animals = animals);          
   }
   cabecalho: string = "renderização de lista";  
   petMensage : string = '';
@@ -24,8 +25,9 @@ export class ListRenderComponent {
     console.log("Removendo animal");
     this.animals = this.listservice.remove(this.animals,animal);
   }
-  createNewAnimal(animals : Animal[]){
-    this.listservice.create(animals);
-  }
+  //createNewAnimal(animals : Animal[]){
+  //  this.listservice.create(animals);
+  //}
+  //por conta de atualizações da interface essa função nao esta mais funcionando por falta de uma logica melhor.
 }
 

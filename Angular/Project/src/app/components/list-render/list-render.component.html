@@ -2,12 +2,14 @@
 <div class="componente">
   <ul id="lista">
     <li *ngFor="let animal, of animals">
-      {{animal.name}} {{animal.type}}
-      <button [ngStyle]="{'margin-top' : '50px'}" (click)="showAge(animal)"> Mostrar idade</button>
+      <a routerLink="./{{animal.id}}">{{animal.name}}</a> {{animal.type}}
+      <button [ngStyle]="{'margin-top' : '50px'}" (click)="showAge(animal)">Mostrar idade</button>
       <button (click)="removerAnimal(animal)">excluri animal</button>
     </li>
-    <button (click)="createNewAnimal(animals)">Crear animal nulo</button>
-
+    <!--
+      <button (click)="createNewAnimal(animals)">Criar animal nulo</button>
+      Por conta de atualizações da interface essa função nao esta mais funcionando por falta de uma logica melhor.
+    -->
   </ul>
 
   <h3>{{petMensage}}</h3>
